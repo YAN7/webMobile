@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>text</title>
+	<link rel="stylesheet" href="dist/css/swiper.css">
+	<script src="dist/js/swiper.js"></script>
+	<style>
+		body,html {
+			width: 100%;
+		}
+		.box1,.box2,.box3 {
+			width: 100%;
+		}
+		.box1 {
+			background-color: cyan;
+		}
+		.box2 {
+			background-color: lightgreen;
+		}
+		.box3 {
+			background-color: skyblue;
+		}
+		img {
+			width: 100%;
+		}
+	</style>
+	<script>
+		window.onload = function () {
+			var mySwiper = new Swiper('.swiper-container', {
+				autoplay: 1000,//可选选项，自动滑动
+				speed: 1000,
+				autoplayDisableOnInteraction : false,
+				pagination : '.swiper-pagination',
+				paginationClickable :true,
+				loop:true,
+			})
+		}
+	</script>
+</head>
+<body>
+
+
+
+
+
+
+			<div class="banner banxin pct100">
+				<!-- 轮播图部分 -->
+				<div class="banner-border pct100 ofh">
+					<ul class="pct500 ">
+						<!-- <li><a href="javascript:;"><img src="images/6.jpg"></a></li> -->
+						<li class="l pct20"><a href="javascript:;" class="db pct100"><img src="images/4.jpg" class="db pct100"></a></li>
+						<li class="l pct20"><a href="javascript:;" class="db pct100"><img src="images/5.jpg" class="db pct100"></a></li>
+						<li class="l pct20"><a href="javascript:;" class="db pct100"><img src="images/6.jpg" class="db pct100"></a></li>
+						<li class="l pct20"><a href="javascript:;" class="db pct100"><img src="images/4.jpg" class="db pct100"></a></li>
+					</ul>
+				</div>
+				<!-- 小圆点部分 -->
+				<div class="banner-dot fix pct100 posr bgwh h28">
+					<ul class="posa">
+						<li class="active l ml10 bdr50"></li>
+						<li class="l ml10 bdr50"></li>
+						<li class="l ml10 bdr50"></li>
+					</ul>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

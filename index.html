@@ -14,11 +14,29 @@
 	<link type="text/css" rel="stylesheet" href="css/base.css" />
 	<link rel="stylesheet" href="css/index.css">
 	<script src="js/jquery-1.11.1.js"></script>
+
+	<!-- 引用swiper库 -->
+	<link rel="stylesheet" href="dist/css/swiper.min.css">
+	<script src="dist/js/swiper.jquery.min.js"></script>
+
+	<!-- 创建swiper对象 -->
+	<script>
+		window.onload = function () {
+			var mySwiper = new Swiper('.swiper-container', {
+				autoplay: 1000,
+				speed: 1000,
+				autoplayDisableOnInteraction : false,
+				pagination : '.swiper-pagination',
+				paginationClickable :true,
+				loop:true,
+			})
+		}
+	</script>
 </head>
 <body>
 	<div class="container bgf5 ma0 pct100 maxw640 minw300">
 			<!-- ========= logo开始 ========= -->
-			<div class="logo fix mb5">
+			<div class="logo yan fix mb5">
 				<a href="javascript:;" class="l h45 w240"></a>
 				<a href="javascript:;" class="r h45 w60"></a>
 			</div>
@@ -26,27 +44,14 @@
 
 
 			<!-- ========= banner 轮播图开始 ========= -->
-			<div class="banner banxin pct100">
-				<!-- 轮播图部分 -->
-				<div class="banner-border pct100 ofh">
-					<ul class="pct500 ">
-						<!-- <li><a href="javascript:;"><img src="images/6.jpg"></a></li> -->
-						<li class="l pct20"><a href="javascript:;" class="db pct100"><img src="images/4.jpg" class="db pct100"></a></li>
-						<li class="l pct20"><a href="javascript:;" class="db pct100"><img src="images/5.jpg" class="db pct100"></a></li>
-						<li class="l pct20"><a href="javascript:;" class="db pct100"><img src="images/6.jpg" class="db pct100"></a></li>
-						<li class="l pct20"><a href="javascript:;" class="db pct100"><img src="images/4.jpg" class="db pct100"></a></li>
-					</ul>
-				</div>
-				<!-- 小圆点部分 -->
-				<div class="banner-dot fix pct100 posr bgwh h28">
-					<ul class="posa">
-						<li class="active l ml10 bdr50"></li>
-						<li class="l ml10 bdr50"></li>
-						<li class="l ml10 bdr50"></li>
-					</ul>
-				</div>
+			<div class="swiper-container banxin pct100">
+			  	<div class="swiper-wrapper pct100">
+				    <div class="swiper-slide pct100"><img src="images/4.jpg" class="pct100"></div>
+				    <div class="swiper-slide pct100"><img src="images/5.jpg" class="pct100"></div>
+				    <div class="swiper-slide pct100"><img src="images/6.jpg" class="pct100"></div>
+			 	 </div>
+			  	<div class="swiper-pagination"></div>
 			</div>
-
 			<!-- ========= banner 轮播图结束 ========= -->
 
 
@@ -187,11 +192,11 @@
 				</div>
 				<div class="tipOff-con pct100 fix btf5">
 					<div class="tipOff-con-left l h110 w80">
-						<!-- <img src="images/" alt=""> -->
+						<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
 					</div>
 					<div class="tipOff-con-right l pct100 h110">
 						<dl class="mt15">
-							<dt class="fz14 c666">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</dt>
+							<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
 							<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
 						</dl>
 						<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
@@ -201,11 +206,11 @@
 
 				<div class="tipOff-con pct100 fix bdf5">
 					<div class="tipOff-con-left l h110 w80">
-						<!-- <img src="images/" alt=""> -->
+						<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
 					</div>
 					<div class="tipOff-con-right l pct100 h110">
 						<dl class="mt15">
-							<dt class="fz14 c666">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</dt>
+							<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
 							<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
 						</dl>
 						<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
@@ -214,11 +219,11 @@
 				</div>
 				<div class="tipOff-con pct100 fix bdf5">
 					<div class="tipOff-con-left l h110 w80">
-						<!-- <img src="images/" alt=""> -->
+						<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
 					</div>
 					<div class="tipOff-con-right l pct100 h110">
 						<dl class="mt15">
-							<dt class="fz14 c666">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</dt>
+							<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
 							<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
 						</dl>
 						<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
@@ -227,11 +232,11 @@
 				</div>
 				<div class="tipOff-con pct100 fix bdf5">
 					<div class="tipOff-con-left l h110 w80">
-						<!-- <img src="images/" alt=""> -->
+						<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
 					</div>
 					<div class="tipOff-con-right l pct100 h110">
 						<dl class="mt15">
-							<dt class="fz14 c666">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</dt>
+							<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
 							<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
 						</dl>
 						<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
