@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-#一起惠返利网
-=======
+
 #[***一起惠返利网***](https://yan7.github.io/webMobile/)
->>>>>>> master
 
 ## 项目概述
 
