@@ -23,269 +23,280 @@
 	<script>
 		window.onload = function () {
 			var mySwiper = new Swiper('.swiper-container', {
-				autoplay: 1000,
-				speed: 1000,
-				autoplayDisableOnInteraction : false,
-				pagination : '.swiper-pagination',
-				paginationClickable :true,
-				loop:true,
+				autoplay: 1000, //轮播时间间隔
+				speed: 1000,   //动画完成速度
+				autoplayDisableOnInteraction : false,  //永华滑动之后自动轮播还可以运行
+				pagination : '.swiper-pagination',     //是否显示小圆点
+				paginationClickable :true,  //可以用小圆点来控制
+				loop:true,  //是否无限循环
 			})
 		}
 	</script>
 </head>
 <body>
 	<div class="container bgf5 ma0 pct100 maxw640 minw300">
-			<!-- ========= logo开始 ========= -->
-			<div class="logo yan fix mb5">
-				<a href="javascript:;" class="l h45 w240"></a>
-				<a href="javascript:;" class="r h45 w60"></a>
+		<!-- ========= logo开始 ========= -->
+		<div class="i-logo fix mb5">
+			<a href="javascript:;" class="l h45 w240"></a>
+			<a href="javascript:;" class="r h45 w60"></a>
+		</div>
+		<!-- ========= logo结束 ========= -->
+
+
+		<!-- ========= banner 轮播图开始 ========= -->
+		<div class="swiper-container banxin pct100">
+		  	<div class="swiper-wrapper pct100">
+			    <div class="swiper-slide pct100"><img src="images/4.jpg" class="pct100"></div>
+			    <div class="swiper-slide pct100"><img src="images/5.jpg" class="pct100"></div>
+			    <div class="swiper-slide pct100"><img src="images/6.jpg" class="pct100"></div>
+		 	 </div>
+		  	<div class="swiper-pagination dot"></div>
+			<div class="blank-space pct100 bgwh h30"></div>
+		</div>
+		<!-- ========= banner 轮播图结束 ========= -->
+
+
+
+		<!-- ========= nav 导航开始 ========= -->
+		<div class="i-nav banxin fix pct100 bgwh pl15 pr15">
+			<ul class="pct100">
+				<li class="icon-li">
+					<a href="javascript:;">
+						<img src="images/m-index_10.png" class="db w45 h45 ma10">
+						<p>商城返利</p>
+					</a>
+
+				</li>
+				<li class="icon-li">
+					<a href="javascript:;">
+						<img src="images/m-index_12.png" class="db w45 h45 ma10">
+						<p>优惠爆料</p>
+					</a>
+
+				</li>
+				<li class="icon-li">
+					<a href="javascript:;">
+						<img src="images/m-index_14.png" class="db w45 h45 ma10">
+						<p>淘宝返利</p>
+					</a>
+
+				</li>
+				<li class="icon-li">
+					<a href="javascript:;">
+						<img src="images/m-index_16.png" class="db w45 h45 ma10">
+						<p>购物资讯</p>
+					</a>
+
+				</li>
+				<li class="icon-li">
+					<a href="javascript:;">
+						<img src="images/m-index_22.png" class="db w45 h45 ma10">
+						<p>比价网</p>
+					</a>
+
+				</li>
+				<li class="icon-li">
+					<a href="javascript:;">
+						<img src="images/m-index_24.png" class="db w45 h45 ma10">
+						<p>有奖签到</p>
+					</a>
+
+				</li>
+				<li class="icon-li">
+					<a href="javascript:;">
+						<img src="images/m-index_26.png" class="db w45 h45 ma10">
+						<p>订单管理</p>
+					</a>
+				</li>
+				<li class="icon-li">
+					<a href="subitem/user.html">
+						<img src="images/m-index_27.png" class="db w45 h45 ma10">
+						<p>会员中心</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- ========= nav 导航结束 ========= -->
+
+
+		<!-- ========= tmall 热门商城开始 ========= -->
+		<div class="i-tmall banxin fix bgwh">
+			<!-- 标题部分 -->
+			<div class="fix title">
+				<a href="javascript:;">热门商城</a>
+				<a href="javascript:;">更多</a>
 			</div>
-			<!-- ========= logo结束 ========= -->
-
-
-			<!-- ========= banner 轮播图开始 ========= -->
-			<div class="swiper-container banxin pct100">
-			  	<div class="swiper-wrapper pct100">
-				    <div class="swiper-slide pct100"><img src="images/4.jpg" class="pct100"></div>
-				    <div class="swiper-slide pct100"><img src="images/5.jpg" class="pct100"></div>
-				    <div class="swiper-slide pct100"><img src="images/6.jpg" class="pct100"></div>
-			 	 </div>
-			  	<div class="swiper-pagination"></div>
-			</div>
-			<!-- ========= banner 轮播图结束 ========= -->
-
-
-			<!-- ========= nav 导航开始 ========= -->
-			<div class="nav banxin fix pct100 bgwh pl15 pr15">
+			<!-- 内容部分 -->
+			<div class="tmall-cont pct100">
 				<ul class="pct100">
 					<li class="icon-li">
 						<a href="javascript:;">
-							<img src="images/m-index_10.png" class="db w45 h45 ma10">
-							<p>商城返利</p>
+							<img src="images/jd.png">
+							<p>最高返 <span>2.8%</span></p>
 						</a>
-
 					</li>
 					<li class="icon-li">
 						<a href="javascript:;">
-							<img src="images/m-index_12.png" class="db w45 h45 ma10">
-							<p>优惠爆料</p>
+							<img src="images/jd.png">
+							<p>最高返 <span>2.8%</span></p>
 						</a>
-
 					</li>
 					<li class="icon-li">
 						<a href="javascript:;">
-							<img src="images/m-index_14.png" class="db w45 h45 ma10">
-							<p>淘宝返利</p>
+							<img src="images/amazon.png">
+							<p>最高返 <span>2.8%</span></p>
 						</a>
-
 					</li>
 					<li class="icon-li">
 						<a href="javascript:;">
-							<img src="images/m-index_16.png" class="db w45 h45 ma10">
-							<p>购物资讯</p>
+							<img src="images/1hao.gif">
+							<p>最高返 <span>2.8%</span></p>
 						</a>
-
 					</li>
 					<li class="icon-li">
 						<a href="javascript:;">
-							<img src="images/m-index_22.png" class="db w45 h45 ma10">
-							<p>比价网</p>
+							<img src="images/suning.png">
+							<p>最高返 <span>2.8%</span></p>
 						</a>
-
 					</li>
 					<li class="icon-li">
 						<a href="javascript:;">
-							<img src="images/m-index_24.png" class="db w45 h45 ma10">
-							<p>有奖签到</p>
+							<img src="images/gome.png">
+							<p>最高返 <span>2.8%</span></p>
 						</a>
-
 					</li>
 					<li class="icon-li">
 						<a href="javascript:;">
-							<img src="images/m-index_26.png" class="db w45 h45 ma10">
-							<p>订单管理</p>
+							<img src="images/jd.png">
+							<p>最高返 <span>2.8%</span></p>
 						</a>
-
 					</li>
 					<li class="icon-li">
 						<a href="javascript:;">
-							<img src="images/m-index_27.png" class="db w45 h45 ma10">
-							<p>会员中心</p>
+							<img src="images/wei.gif">
+							<p>最高返 <span>2.8%</span></p>
 						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- ========= tmall 热门商城结束 ========= -->
 
+
+		<!-- ========= tipOff 最新爆料开始 ========= -->
+		<div class="i-tipOff banxin fix bgwh">
+			<div class="tipOff-tit title fix">
+				<a href="javascript:;">最新爆料</a>
+				<a href="javascript:;" class="w40 h40"></a>
+			</div>
+			<div class="tipOff-con pct100 fix btf5">
+				<div class="tipOff-con-left l h110 w80">
+					<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
+				</div>
+				<div class="tipOff-con-right l pct100 h110">
+					<dl class="mt15">
+						<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
+						<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
+					</dl>
+					<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
+					<span class="r mt10 pr10">京东商城 7-10 12:33</span>
+				</div>
+			</div>
+
+			<div class="tipOff-con pct100 fix bdf5">
+				<div class="tipOff-con-left l h110 w80">
+					<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
+				</div>
+				<div class="tipOff-con-right l pct100 h110">
+					<dl class="mt15">
+						<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
+						<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
+					</dl>
+					<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
+					<span class="r mt10 pr10">京东商城 7-10 12:33</span>
+				</div>
+			</div>
+			<div class="tipOff-con pct100 fix bdf5">
+				<div class="tipOff-con-left l h110 w80">
+					<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
+				</div>
+				<div class="tipOff-con-right l pct100 h110">
+					<dl class="mt15">
+						<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
+						<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
+					</dl>
+					<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
+					<span class="r mt10 pr10">京东商城 7-10 12:33</span>
+				</div>
+			</div>
+			<div class="tipOff-con pct100 fix bdf5">
+				<div class="tipOff-con-left l h110 w80">
+					<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
+				</div>
+				<div class="tipOff-con-right l pct100 h110">
+					<dl class="mt15">
+						<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
+						<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
+					</dl>
+					<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
+					<span class="r mt10 pr10">京东商城 7-10 12:33</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- ========= tipOff 最新爆料结束 ========= -->
+
+
+		<!-- ========= footer 网页尾部开始 ========= -->
+		<div class="footer banxin fix btf5 pct100">
+			<!-- 加载更多 -->
+			<div class="load tac lh40 bde pct100 fix bgwh"><a href="javascript:;" class="c666">加载更多</a></div>
+
+			<!-- 登录 注册 返回顶部 -->
+			<div class="info pct100 bgwh mt8 h40 fix pct100">
+				<ul class="pct100 pct100">
+					<li class="l pct33 tac lh40 fz14"><a href="subitem/login.html" class="c666">登录</a></li>
+					<li class="l pct33 tac lh40 fz14"><a href="javascript:;" class="c666">注册</a></li>
+					<li class="l pct33 tac lh40 fz14"><a href="javascript:;" class="c666">返回顶部</a></li>
+				</ul>
+			</div>
+
+			<!-- 手机端 触摸版 电脑版 -->
+			<div class="i-version mt8 pct100 fix">
+				<ul class="pct100">
+					<li class="pct33 mt5 l tac bgwh">
+						<a href="javascript:;" class="db pct100">
+							<img src="images/178hui-app.png">
+							<p class="fz14 pct100 tac pb10 c666 p1">手机端</p>
+						</a>
+					</li>
+					<li class="pct33 mt5 l tac bgwh">
+						<a href="javascript:;" class="db pct100">
+							<img src="images/178hui-shouji.png">
+							<p class="fz14 pct100 tac pb10 c666 p2">触摸版</p>
+						</a>
+					</li>
+					<li class="pct33 mt5 l tac bgwh">
+						<a href="javascript:;" class="db pct100">
+							<img src="images/178hui-diannao.png">
+							<p class="fz14 pct100 tac pb10 c666 p3">电脑版</p>
+						</a>
 					</li>
 				</ul>
 			</div>
 
-			<!-- ========= nav 导航结束 ========= -->
-
-
-			<!-- ========= tmall 热门商城开始 ========= -->
-			<div class="tmall banxin fix bgwh">
-				<!-- 标题部分 -->
-				<div class="fix title">
-					<a href="javascript:;">热门商城</a>
-					<a href="javascript:;">更多</a>
-				</div>
-				<!-- 内容部分 -->
-				<div class="tmall-cont pct100">
-					<ul class="pct100">
-						<li class="icon-li">
-							<a href="javascript:;">
-								<img src="images/jd.png">
-								<p>最高返 <span>2.8%</span></p>
-							</a>
-						</li>
-						<li class="icon-li">
-							<a href="javascript:;">
-								<img src="images/jd.png">
-								<p>最高返 <span>2.8%</span></p>
-							</a>
-						</li>
-						<li class="icon-li">
-							<a href="javascript:;">
-								<img src="images/amazon.png">
-								<p>最高返 <span>2.8%</span></p>
-							</a>
-						</li>
-						<li class="icon-li">
-							<a href="javascript:;">
-								<img src="images/1hao.gif">
-								<p>最高返 <span>2.8%</span></p>
-							</a>
-						</li>
-						<li class="icon-li">
-							<a href="javascript:;">
-								<img src="images/suning.png">
-								<p>最高返 <span>2.8%</span></p>
-							</a>
-						</li>
-						<li class="icon-li">
-							<a href="javascript:;">
-								<img src="images/gome.png">
-								<p>最高返 <span>2.8%</span></p>
-							</a>
-						</li>
-						<li class="icon-li">
-							<a href="javascript:;">
-								<img src="images/jd.png">
-								<p>最高返 <span>2.8%</span></p>
-							</a>
-						</li>
-						<li class="icon-li">
-							<a href="javascript:;">
-								<img src="images/wei.gif">
-								<p>最高返 <span>2.8%</span></p>
-							</a>
-						</li>
-					</ul>
-				</div>
+			<!-- 版权 -->
+			<div class="copyright tac mt10 mb10 bgf5">
+				<p class="fz12 lh20 c666">Copyright2012-2016 一起惠返利网 m178.hui.com 版权所有</p>
 			</div>
-			<!-- ========= tmall 热门商城结束 ========= -->
-
-
-			<!-- ========= tipOff 最新爆料开始 ========= -->
-			<div class="tipOff banxin fix bgwh">
-				<div class="tipOff-tit title fix">
-					<a href="javascript:;">最新爆料</a>
-					<a href="javascript:;" class="w40 h40"></a>
-				</div>
-				<div class="tipOff-con pct100 fix btf5">
-					<div class="tipOff-con-left l h110 w80">
-						<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
-					</div>
-					<div class="tipOff-con-right l pct100 h110">
-						<dl class="mt15">
-							<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
-							<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
-						</dl>
-						<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
-						<span class="r mt10 pr10">京东商城 7-10 12:33</span>
-					</div>
-				</div>
-
-				<div class="tipOff-con pct100 fix bdf5">
-					<div class="tipOff-con-left l h110 w80">
-						<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
-					</div>
-					<div class="tipOff-con-right l pct100 h110">
-						<dl class="mt15">
-							<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
-							<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
-						</dl>
-						<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
-						<span class="r mt10 pr10">京东商城 7-10 12:33</span>
-					</div>
-				</div>
-				<div class="tipOff-con pct100 fix bdf5">
-					<div class="tipOff-con-left l h110 w80">
-						<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
-					</div>
-					<div class="tipOff-con-right l pct100 h110">
-						<dl class="mt15">
-							<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
-							<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
-						</dl>
-						<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
-						<span class="r mt10 pr10">京东商城 7-10 12:33</span>
-					</div>
-				</div>
-				<div class="tipOff-con pct100 fix bdf5">
-					<div class="tipOff-con-left l h110 w80">
-						<a href="javascript:;"><img src="images/product.jpg" class="w80 mt15"></a>
-					</div>
-					<div class="tipOff-con-right l pct100 h110">
-						<dl class="mt15">
-							<dt class="fz14 c666"><a href="javascript:;">韩国现代(HYUNDAI)BD-YS2003多功能养生壶 煎药壶2.0L</a></dt>
-							<dd class="cf30 pt10 pb10">手机端 99元包邮</dd>
-						</dl>
-						<span class="l mt10">￥99..0 <del class="f30">￥138.00</del></span>
-						<span class="r mt10 pr10">京东商城 7-10 12:33</span>
-					</div>
-				</div>
-			</div>
-
-			<!-- ========= tipOff 最新爆料结束 ========= -->
-
-
-			<!-- ========= footer 网页尾部开始 ========= -->
-			<div class="footer banxin fix btf5 pct100">
-				<div class="load tac lh40 bde pct100 fix bgwh"><a href="javascript:;" class="c666">加载更多</a></div>
-				<div class="info pct100 bgwh mt8 h40 fix pct100">
-					<ul class="pct100 pct100">
-						<li class="l pct33 tac lh40 fz14"><a href="javascript:'" class="c666">登录</a></li>
-						<li class="l pct33 tac lh40 fz14"><a href="javascript:;" class="c666">注册</a></li>
-						<li class="l pct33 tac lh40 fz14"><a href="javascript:;" class="c666">返回顶部</a></li>
-					</ul>
-				</div>
-				<div class="version mt8 pct100 fix">
-					<ul class="pct100">
-						<li class="pct33 mt5 l tac bgwh">
-							<a href="javascript:;" class="db pct100">
-								<img src="images/178hui-app.png">
-								<p class="fz14 pct100 tac pb10 c666 p1">手机端</p>
-							</a>
-						</li>
-						<li class="pct33 mt5 l tac bgwh">
-							<a href="javascript:;" class="db pct100">
-								<img src="images/178hui-shouji.png">
-								<p class="fz14 pct100 tac pb10 c666 p2">触摸版</p>
-							</a>
-						</li>
-						<li class="pct33 mt5 l tac bgwh">
-							<a href="javascript:;" class="db pct100">
-								<img src="images/178hui-diannao.png">
-								<p class="fz14 pct100 tac pb10 c666 p3">电脑版</p>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="copyright tac mt10 mb10 bgf5">
-					<p class="fz14 lh20 c666">Copyright2012-2016 一起惠返利网 m178.hui.com 版权所有</p>
-				</div>
-			</div>
-
-			<!-- ========= footer 网页尾部结束 =========
 		</div>
+
+		<!-- ========= footer 网页尾部结束 ========= -->
+	</div>
 </body>
 </html>
+
+
+
+

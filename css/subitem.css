@@ -1,0 +1,31 @@
+
+/* =============== login 登录页面 ================ */
+
+/* ------ l-header 头部开始 ------ */
+.l-header span {top: 4px; left: 5px;background: url(../images/iconfont-fanhui.png) no-repeat 0 0; background-size: 80% auto; cursor: pointer; }
+
+/* =============== ueser 用户页面 ================ */
+/* ------ u-header 头部开始 ------ */
+.u-header {border-top:12px solid #f5f5f5; padding-left: 45px; padding-right: 45px; }
+.u-header a:first-child {margin-left: -45px; background: url(../images/iconfont-fanhui.png) no-repeat center; background-size: 60% auto; }
+.u-header a:last-child {margin-right: -45px; background: url(../images/iconfont-shouye.png) no-repeat center; background-size: 57% auto; }
+
+/* ------ u-info 用户信息开始 ------ */
+.u-info {height: 120px; background: url(../images/user_bg.jpg) no-repeat center; background-size: cover; }
+
+/* ------ u-item 用户列表开始 ------ */
+/* 左边的内容 */
+.u-item > ul > li {border-top: 1px solid #EBEBEB; }
+.u-item > ul > li > a > span:first-child {padding-left: 50px; background: url('../images/iconfont-jiaofei.png') no-repeat 10px center; background-size: 30% auto; }
+.u-item > ul > li:nth-child(2) > a > span:first-child{background-image: url(../images/iconfont-hui.png);}
+.u-item > ul > li:nth-child(3) > a > span:first-child{background-image: url(../images/iconfont-wiappquxianguanli.png);}
+.u-item > ul > li:nth-child(4) > a > span:first-child{background-image: url(../images/iconfont-wiappquxianguanli.png);}
+.u-item > ul > li:nth-child(5) > a > span:first-child{background-image: url(../images/iconfont-dingdan .png);}
+.u-item > ul > li:nth-child(6) > a > span:first-child{background-image: url(../images/iconfont-qiandaotubiao.png);}
+.u-item > ul > li:nth-child(7) > a > span:first-child{background-image: url(../images/iconfont-zhanneixin.png);}
+.u-item > ul > li:nth-child(8) > a > span:first-child{background-image: url(../images/iconfont-zhanghuanquan.png);}
+/* 右边的内容 */
+.u-item > ul > li > a > span > i {width: 22px; height: 22px; top: 15px; right: 7px; background: url('../images/iconfont-jiantou.png') no-repeat center center; background-size: cover; }
+/* ------ u-quit 用户账号退出开始 ------ */
+.u-quit > a {background-color: #8C6A5E;}
+.u-quit > a > span{background: url(../images/iconfont-tuichu.png) no-repeat center left; background-size: 25% auto;}
