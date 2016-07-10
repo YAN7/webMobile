@@ -2,7 +2,7 @@
 * @Author: YAN7
 * @Date:   2016-07-03 14:08:30
 * @Last Modified by:   apple
-* @Last Modified time: 2016-07-09 23:48:26
+* @Last Modified time: 2016-07-11 00:38:26
 */
 
 /*------- CSS reset -------*/
@@ -393,12 +393,30 @@ a:active{background-color: transparent;color:transparent;}
 .title > a:last-child {float: right; text-align: center; font: 14px/40px 'simsun';}
 
 /* ----- footer 网页尾部开始 ----- */
-
 .i-version a img {display: block; width: 35px; margin: 15px auto; padding-top: 4px;}
 .i-version a p.p1{color:#00BB9C;}
 .i-version a p.p2{color:#EE6976;}
 .vi-ersion a p.p3{color:#7A7AA3;}
-/* ----- footer 网页尾部结束 ----- */
+
+
+/* ----- 输入密码框 右边隐藏显示密码 ----- */
+
+
+
+/* ----- 返回顶部小火箭 ----- */
+.rocket {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 64px;
+	height: 64px;
+	background: url(../images/iconfont-fanhuidingbu.png) no-repeat center;
+	background-size: 70% auto;
+	display: none;
+}
+
+
+
 
 
 

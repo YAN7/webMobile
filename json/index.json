@@ -1,0 +1,85 @@
+[
+	{
+		"imgSrc":  "images/m-index_10.png",
+		"p": "商城返利"
+	},
+	{
+		"imgSrc":  "images/m-index_12.png",
+		"p": "优惠爆料"
+	},
+	{
+		"imgSrc":  "images/m-index_14.png",
+		"p": "淘宝返利"
+	},
+	{
+		"imgSrc":  "images/m-index_16.png",
+		"p": "购物资讯"
+	},
+	{
+		"imgSrc":  "images/m-index_22.png",
+		"p": "比价网"
+	},
+	{
+		"imgSrc":  "images/m-index_24.png",
+		"p": "有奖签到"
+	},
+	{
+		"imgSrc":  "images/m-index_26.png",
+		"p": "订单管理"
+	},
+	{
+		"imgSrc":  "images/m-index_27.png",
+		"p": "会员中心"
+	}
+]
+
+// <li class="icon-li">
+// 	<a href="javascript:;">
+// 		<img src="images/m-index_10.png" class="db w45 h45 ma10">
+// 		<p>商城返利</p>
+// 	</a>
+// </li>
+
+
+[
+	{
+		"imgSrc": "'images/jd.png'"
+	},
+	{
+		"imgSrc": "'images/jd.png'"
+	},
+	{
+		"imgSrc": "'images/amazon.png'"
+	},
+	{
+		"imgSrc": "'images/1hao.gif'"
+	},
+	{
+		"imgSrc": "'images/suning.png'"
+	},
+	{
+		"imgSrc": "'images/gome.png'"
+	},
+	{
+		"imgSrc": "'images/jd.png'"
+	},
+	{
+		"imgSrc": "'images/wei.png'"
+	}
+]
+
+
+[
+	{
+		"imgSrc": "'images/178hui-app.png'",
+		"p": "手机端"
+	},
+	{
+		"imgSrc": "'images/178hui-shouji.png'",
+		"p": "触摸版"
+	},
+	{
+		"imgSrc": "'images/178hui-diannao.png'",
+		"p": "电脑版"
+	}
+]
