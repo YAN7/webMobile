@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en" />
+	<meta name="Author" content="yan7" />
+	<meta name="Copyright" content="yan7独家版权，欢迎侵权" />
+	<meta name="keywords" content="mobileWen 返利 优惠" />
+	<meta name="description" content="一站式购物，有优惠，无错过" />
+	<link rel="Shortcut Icon" href="../images/favicon.png" />
+	<link type="text/css" rel="stylesheet" href="../css/base.css" />
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/subitem.css">
+	<script src='../js/jquery-1.11.1.js'></script>
+
+	<script>
+		$(function() {
+			function showPassword1() {
+				var password1 = $(".input-password1");
+				if (password1.prop("type") == 'password') {
+					password1.prop('type','text')
+				} else {
+					password1.prop('type','password')
+				}
+			}
+			function showPassword2() {
+				var password2 = $(".input-password2");
+				if (password2.prop("type") == 'password') {
+					password2.prop('type','text')
+				} else {
+					password2.prop('type','password')
+				}
+			}
+			$(".register-show-password1").on('click',function() {
+				$(this).toggleClass('show');
+				showPassword1();
+			})
+			$(".register-show-password2").on('click',function() {
+				$(this).toggleClass('show');
+				showPassword2();
+			})
+		})
+	</script>
+
+</head>
+<body>
+	<div class="container bgf5 ma0 pct100 maxw640 minw300">
+
+		<!-- ========= header 头部开始 ========= -->
+		<div class="l-header posr pct100 tac lh44 fz20 wh bg4e"><a href="../index.html"><span class="posa h44 w40"></span></a>一起惠返利网·注册</div>
+		<!-- ========= header 头部结束 ========= -->
+
+		<!-- ========= register 注册开始 ========= -->
+		<div class="content banxin fix bgwh pct100">
+			<div class="blank-space pct100 bgwh h20 mt5"></div>
+			<!-- 输入账号信息 -->
+			<div class="register pct100 posr">
+				<form>
+					<input class="pct90 h42 lh42 db pl10 fz14 ma0 bdr10" type="text" placeholder="请输入用户名/邮箱/手机号">
+					<input class="pct90 h42 lh42 db pl10 fz14 ma20 bdr10 input-password1" type="password" placeholder="请输入密码"><span class="register-show-password1 show-password"></span>
+					<input class="pct90 h42 lh42 db pl10 fz14 ma20 bdr10 input-password2" type="password" placeholder="确认密码"><span class="register-show-password2 show-password"></span>
+					<input class="pct90 h42 lh42 db pl10 fz14 ma20 bdr10" type="mail" placeholder="请输入邮箱">
+					<input class="pct90 h42 lh42 db pl10 fz14 ma20 bdr10" type="tel" placeholder="请输入qq号码">
+					<input class="pct90 h42 lh42 db pl10 fz14 ma20 bdr10" type="text" placeholder="验证码">
+				</form>
+			</div>
+			<!-- 用户服务协议 -->
+			<div class="pct90 ma0 pl5">注册即视为同意<a href="javascript:;" class="c4e">用户服务协议</a></div>
+			<!-- 登录按钮 -->
+			<div class="comfirm pct90 banxin bgwh">
+				<form>
+					<input class="pct90 h42 lh42 db tac ma20 bdr10 bg4e wh" type="button" value="用户注册">
+					<a href="login.html"><input class="pct90 h42 lh42 db tac ma0 bdr10 bgde wh" type="button" value="已有账号？立即登录"></a>
+					<div class="blank-space pct100 bgwh h20"></div>
+				</form>
+			</div>
+
+		</div>
+		<!-- ========= register 注册结束 ========= -->
+
+		<!-- ========= footer 网页尾部开始 ========= -->
+		<div class="footer banxin fix btf5 pct100">
+			<!-- 登录 注册 返回顶部 -->
+			<div class="info pct100 bgwh mt8 h40 fix pct100">
+				<ul class="pct100 pct100">
+					<li class="l pct33 tac lh40 fz14"><a href="login.html" class="c666">登录</a></li>
+					<li class="l pct33 tac lh40 fz14"><a href="javascript:;" class="c666">注册</a></li>
+					<li class="l pct33 tac lh40 fz14"><a href="../index.html" class="c666">返回首页</a></li>
+				</ul>
+			</div>
+
+			<!-- 手机端 触摸版 电脑版 -->
+			<div class="i-version mt8 pct100 fix">
+				<ul class="pct100">
+					<li class="pct33 mt5 l tac bgwh">
+						<a href="javascript:;" class="db pct100">
+							<img src="../images/178hui-app.png">
+							<p class="fz14 pct100 tac pb10 c666 p1">手机端</p>
+						</a>
+					</li>
+					<li class="pct33 mt5 l tac bgwh">
+						<a href="javascript:;" class="db pct100">
+							<img src="../images/178hui-shouji.png">
+							<p class="fz14 pct100 tac pb10 c666 p2">触摸版</p>
+						</a>
+					</li>
+					<li class="pct33 mt5 l tac bgwh">
+						<a href="javascript:;" class="db pct100">
+							<img src="../images/178hui-diannao.png">
+							<p class="fz14 pct100 tac pb10 c666 p3">电脑版</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- 版权 -->
+			<div class="copyright tac mt10 mb10 bgf5">
+				<p class="fz12 lh20 c666">Copyright2012-2016 一起惠返利网 m178.hui.com 版权所有</p>
+			</div>
+		</div>
+		<!-- ========= footer 网页尾部结束 ========= -->
+	</div>
+</body>
+</html>

@@ -2,8 +2,10 @@
 * @Author: yan7
 * @Date:   2016-07-06 15:05:46
 * @Last Modified by:   apple
-* @Last Modified time: 2016-07-09 13:48:23
+* @Last Modified time: 2016-07-10 21:12:28
 */
+
+
 
 
 /* =============== logo开始 ================ */
@@ -17,6 +19,8 @@
 .swiper-container{border: 5px solid #fff; border-bottom:none;}
 .swiper-pagination{bottom: -20px;}
 .dot{bottom:6px!important;}
+.swiper-pagination-bullet{background-color: #BEE0A0!important;}
+.swiper-pagination-bullet-active{background-color: #7FC242!important;}
 /* =============== banner 轮播图结束 ================ */
 
 
