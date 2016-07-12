@@ -2,7 +2,7 @@
 * @Author: YAN7
 * @Date:   2016-07-03 14:08:30
 * @Last Modified by:   apple
-* @Last Modified time: 2016-07-11 00:38:26
+* @Last Modified time: 2016-07-12 13:37:28
 */
 
 /*------- CSS reset -------*/
@@ -28,6 +28,9 @@ input[type="text"]{height:42px; }
 textarea{resize:vertical; }
 table{border-collapse:collapse; border-spacing:0px; width:100%; font-size:12px; }
 table td, table th{vertical-align:middle; font-weight:normal; }
+/* 清除获取焦点时的蓝框*/
+select,input,textarea,button,a {outline: none; -moz-outline-style: none; }
+a:active {outline: none; -moz-outline-style: none; background: none;}
 
 
 /* ===================== single CSS ================== */
@@ -399,22 +402,16 @@ a:active{background-color: transparent;color:transparent;}
 .vi-ersion a p.p3{color:#7A7AA3;}
 
 
-/* ----- 输入密码框 右边隐藏显示密码 ----- */
-
+/* ----- 输入框 右边按钮清除内容 ----- */
+#username1,#email-btn,#qq-btn,#idenfity-btn {position: absolute; right: 5%; top: 0; height: 42px; background: url(../images/u_close.png) no-repeat center; background-size: 60% auto; }
+/* =============== register 注册页面 ================ */
+.register-show-password1, .register-show-password2 {position: absolute; right: 4%; top: 64px; width: 70px; height: 42px; background: url(../images/u_s1.png) no-repeat center; background-size: 60% auto; }
+.register-show-password2 {top: 126px; }
+.register-show-password1.show, .register-show-password2.show {background: url(../images/u_s2.png) no-repeat center; background-size: 60% auto; }
 
 
 /* ----- 返回顶部小火箭 ----- */
-.rocket {
-	position: fixed;
-	right: 10px;
-	bottom: 10px;
-	width: 64px;
-	height: 64px;
-	background: url(../images/iconfont-fanhuidingbu.png) no-repeat center;
-	background-size: 70% auto;
-	display: none;
-}
-
+.rocket {position: fixed; right: 10px; bottom: 10px; width: 64px; height: 64px; background: url(../images/iconfont-fanhuidingbu.png) no-repeat center; background-size: 70% auto; display: none; }
 
 
 

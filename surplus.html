@@ -1,4 +1,14 @@
-<!-- 这里从存放的是多余的代码段，放在这里以备后用 -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 这里从存放的是多余的代码段，放在这里以备后用 -->
 
 
 <!-- 登录页面 -->
@@ -162,3 +172,17 @@
 		<p class="fz14 pct100 tac pb10 c666 p3">电脑版</p>
 	</a>
 </li>
+
+<!-- 输入框中有内容则显示右边按钮 -->
+<script>
+	输入框中有内容则显示右边按钮，
+	$('#username').on("input", function() {
+	    if ($(this).val() != '') {
+	        $('#username1').css('display', 'block');
+	    } else {
+	        $('#username1').css('display', 'none');
+	    }
+	})
+</script>
+</body>
+</html>

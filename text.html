@@ -1,29 +1,74 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="content-Type" content="text/html;charset=gb2312">
-    <title>网页特效 显示或隐藏文本框中的密码 站长特效网</title>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #bookList{
+            position: absolute;
+            top: 130px;
+            left: 50%;
+            margin-left:-450px;
+            width:auto;
+        }
+        #bookList table{
+            border-right:1px solid #ddfff3;
+            border-bottom: 1px solid #ddfff3;
+        }
+        #bookList table tbody tr td,th {
+            border-top: solid 1px #ddfff3;
+            border-left: solid 1px #ddfff3;
+            width: 180px;
+            height: 70px;
+            text-align: center;
+            font-size: 20px;
+        }
+        #bookList table tbody tr:nth-child(odd) {
+            background-color: #ecf2cf;
+        }
+        #bookList table tbody tr:nth-child(even) {
+            background-color: #d3eeff;
+        }
+        #bookList table tbody tr:hover {
+            background-color: #ece2ff;
+        }
+
+
+        #bookList table thead tr th{
+            background-color: #ffd1ea;
+            cursor: pointer;
+        }
+    </style>
+    </style>
 </head>
-
 <body>
-    <script type="text/javascript" src="http://www.zzjs.net/ad/tc.js"></script>
-    <form method="POST" action="http://www.zzjs.net" name="forms">
-        <span id=box><input type="password" name="password" size="20"></span>
-        <span id=click><a href="javascript:ps()">显示密码</a></span>
-        <script language="JavaScript">
-        function ps() {
-            if (this.forms.password.type = "password")
-                box.innerHTML = "<input type=\"html\" name=\"password\" size=\"20\" value=" + this.forms.password.value + ">";
-            	click.innerHTML = "<a href=\"javascript:txt()\">隐藏密码</a>"
-        }
 
-        function txt() {
-            if (this.forms.password.type = "text")
-                box.innerHTML = "<input type=\"password\" name=\"password\" size=\"20\" value=" + this.forms.password.value + ">";
-            click.innerHTML = "<a href=\"javascript:ps()\">显示密码</a>"
-        }
-        </script>
-    </form>
+<div class="booklist">
+    <table border="1" cellspacing="0" cellpadding="0">
+        <tr>
+            <th>基本信息</th>
+            <th>工作年限</th>
+            <th>期望职位</th>
+            <th>期望薪资</th>
+            <th>期望城市</th>
+            <th>工作性质</th>
+            <th>到职时间</th>
+        </tr>
+        <tr>
+            <td>何宇航/男/1991</td>
+            <td>1.5年</td>
+            <td>Web前端开发</td>
+            <td>面议</td>
+            <td>广州</td>
+            <td>全职</td>
+            <td>一周之内</td>
+        </tr>
+    </table>
+</div>
 </body>
-
 </html>
