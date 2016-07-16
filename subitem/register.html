@@ -59,12 +59,49 @@
 			<!-- 输入账号信息 -->
 			<div class="register posr pct100">
 				<form>
-					<div class="posr"><input id="username" class="pct90 h42 lh42 db pl10 ma0 bdr10" type="text" placeholder="请输入用户名/邮箱/手机号"><span class="posa dn w50" id="username1"></span></div>
-					<input class="pct90 h42 lh42 db pl10 ma20 bdr10 input-password1" type="password" placeholder="请输入密码"><span class="register-show-password1 show-password"></span>
-					<input class="pct90 h42 lh42 db pl10 ma20 bdr10 input-password2" type="password" placeholder="确认密码"><span class="register-show-password2 show-password"></span>
-					<div class="posr"><input id="email" class="pct90 h42 lh42 db pl10 ma20 bdr10" type="mail" placeholder="请输入邮箱"><span class="posa dn  w50" id="email-btn"></span></div>
-					<div class="posr"><input id="qq" class="pct90 h42 lh42 db pl10 ma20 bdr10" type="tel" placeholder="请输入qq号码"><span class="posa dn w50" id="qq-btn"></span></div>
-					<div class="posr"><input id="idenfity" class="pct90 h42 lh42 db pl10 ma20 bdr10" type="text" placeholder="验证码"><span class="posa dn w50" id="idenfity-btn"></span></div>
+					<div class="posr">
+						<input id="r-username" class="pct90 h42 lh42 db pl10 ma0 bdr10" type="text" placeholder="请输入用户名/邮箱/手机号">
+						<span class="posa dn w50" id="username1"></span>
+						<i class="father" id='r-inp-user-father'>
+						    <i class="son" id='r-inp-user-son'></i>
+						</i>
+					</div>
+
+					<input class="pct90 h42 lh42 db pl10 ma20 bdr10 input-password1" type="password" id="r-password" placeholder="请输入密码">
+					<span class="register-show-password1 show-password"></span>
+					<i class="father" id='r-inp-password-father'>
+					    <i class="son"></i>
+					</i>
+
+					<input class="pct90 h42 lh42 db pl10 ma20 bdr10 input-password2" id='r-cfPassword' type="password" placeholder="确认密码">
+					<span class="register-show-password2 show-password"></span>
+					<i class="father" id='r-inp-cfPassword-father'>
+					    <i class="son" ></i>
+					</i>
+
+
+					<div class="posr">
+						<input id="email" class="pct90 h42 lh42 db pl10 ma20 bdr10" type="mail" placeholder="请输入邮箱">
+						<span class="posa dn  w50" id="email-btn"></span>
+						<i class="father" id='r-inp-email-father'>
+						    <i class="son"></i>
+						</i>
+					</div>
+
+					<div class="posr">
+						<input id="qq" class="pct90 h42 lh42 db pl10 ma20 bdr10" type="tel" placeholder="请输入qq号码">
+						<span class="posa dn w50" id="qq-btn"></span>
+						<i class="father" id='r-inp-qq-father'>
+						    <i class="son"></i>
+						</i>
+					</div>
+					<div class="posr">
+						<input id="idenfity" class="pct90 h42 lh42 db pl10 ma20 bdr10" type="text" placeholder="验证码">
+						<span class="posa dn w50" id="idenfity-btn"></span>
+						<i class="father" id='r-inp-yanzheng-father'>
+						    <i class="son"></i>
+						</i>
+					</div>
 				</form>
 			</div>
 			<!-- 用户服务协议 -->

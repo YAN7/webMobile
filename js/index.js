@@ -1,8 +1,8 @@
-/*
+	/*
 * @Author: yan7
 * @Date:   2016-07-07 08:02:32
 * @Last Modified by:   apple
-* @Last Modified time: 2016-07-10 21:49:15
+* @Last Modified time: 2016-07-15 09:29:20
 */
 
 $(function() {
@@ -13,7 +13,7 @@ $(function() {
 		"p": "商城返利"
 	},
 	{
-		"href": "'javascript:;'",
+		"href": "'subitem/baoliao.html'",
 		"imgSrc":  "images/m-index_12.png",
 		"p": "优惠爆料"
 	},
