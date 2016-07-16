@@ -1,9 +1,20 @@
-/**
- * @Author: apple
- * @Date:   2016-07-09 11:50:03
- * @Last Modified by:   apple
- * @Last Modified time: 2016-07-09 11:51:06
- */
+<?php
+
+	header("Content-type:text/html;charset=utf-8");
+	$user = $_GET["username"];
+	$pwd = $_GET["pwd"];
+
+	$dataUser = "yan7";
+	$dataPwd = "123456";
+
+	if ($user != $dataUser) {
+		echo 1;
+	} else if ($pwd != $dataPwd) {
+		echo 2;
+	} else {
+		echo 3;
+	}
+?>
 
 
 
